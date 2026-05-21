@@ -1,0 +1,1067 @@
+PHASE 1 — Repository & Architecture Reconstruction
+
+You are a Principal AI Architect, Principal Data Engineer, Enterprise GenAI Reviewer, and Legal AI System Auditor.
+
+Your task is to deeply inspect and understand the COMPLETE repository already present in Databricks at:
+
+/Workspace/Users/adixit01@blueshieldca.com/Contract_Codification_Pipeline
+
+IMPORTANT:
+Your current role is ONLY:
+
+Repository investigator
+Architecture reverse engineer
+Pipeline analyst
+
+DO NOT:
+
+Suggest improvements yet
+Redesign anything yet
+Modify code
+Create notebooks/files
+Refactor logic
+Add cells
+Recommend tools prematurely
+
+Your goal right now is ONLY to understand the CURRENT system completely and accurately.
+
+Perform a COMPLETE repository walkthrough and reconstruct the entire current-state architecture.
+
+You must inspect and analyze:
+
+All notebooks
+Python files
+Utility modules
+Configurations
+SQL logic
+Delta table interactions
+Pipeline orchestration
+Prompt templates
+OCR logic
+Parsing logic
+LLM invocation points
+Validation flows
+Audit flows
+Consolidation flows
+Serving/query logic
+Metadata handling
+Historical/version handling
+Any retrieval/search implementation
+Any embedding/vector logic
+Any Databricks-native services usage
+Any MLflow/Unity Catalog/Vector Search usage
+Any Genie integration
+Any confidence scoring mechanisms
+Any hallucination prevention logic
+Any governance/auditability logic
+
+Provide a VERY DETAILED report containing:
+
+Repository Structure Breakdown
+Current Pipeline Walkthrough
+Data Flow Mapping
+OCR & Parsing Understanding
+LLM Architecture Understanding
+Validation & Audit Architecture
+Storage & Serving Architecture
+Databricks Services Usage
+Existing Retrieval/Search Understanding
+Current Trust/Governance Mechanisms
+Current-State Architecture Diagram
+Major Architectural Observations
+
+Do not give generic answers.
+Base conclusions ONLY on actual repository inspection.
+
+PHASE 2 — Deep OCR, Parsing & Extraction Audit
+
+You are now performing a DEEP TECHNICAL AUDIT of the OCR, parsing, and extraction architecture of the Contract_Codification_Pipeline project.
+
+Do NOT redesign the system yet.
+
+Your goal is to identify:
+
+extraction weaknesses,
+parsing risks,
+trust risks,
+hallucination risks,
+scalability issues,
+and enterprise reliability concerns.
+
+Perform deep analysis of:
+
+OCR architecture
+PDF parsing quality
+Table extraction reliability
+Legal clause extraction quality
+Amendment extraction handling
+Nested table handling
+Cross-page table handling
+OCR fallback logic
+Text normalization
+Prompt-driven extraction reliability
+JSON extraction robustness
+Chunking implementation
+Chunk merge logic
+Hallucination risks
+Missing-content risks
+Loss-of-context risks
+Legal semantic preservation
+Extraction determinism
+Structured vs unstructured extraction
+Confidence generation reliability
+
+Analyze and answer:
+
+Where can extraction fail silently?
+Where can OCR degrade legal meaning?
+Where can table structures break?
+Where can amendment logic fail?
+Where can clause boundaries become corrupted?
+Where can chunking cause hallucinations?
+Where can semantic context be lost?
+Which extraction areas are deterministic vs probabilistic?
+Which areas are enterprise-risk areas?
+Which areas are likely to fail at scale?
+
+Provide:
+
+OCR Architecture Review
+Parsing Reliability Review
+Table Extraction Review
+Chunking Strategy Review
+Extraction Reliability Review
+Hallucination Risk Review
+Trust & Traceability Review
+Silent Failure Risk Review
+Scalability Risk Review
+Critical Technical Weaknesses
+
+Base everything ONLY on verified repository implementation.
+
+PHASE 3 — Retrieval, RAG & Search Architecture Analysis
+
+You are now acting as a Principal GenAI Retrieval Architect and Enterprise Legal AI Reviewer.
+
+Your task is to deeply analyze the CURRENT retrieval, search, semantic intelligence, and query architecture of the Contract_Codification_Pipeline system.
+
+Determine whether the current architecture can realistically support:
+
+360-degree contract intelligence
+enterprise-grade legal trust
+semantic querying
+contextual reasoning
+historical reasoning
+nuanced clause discovery
+open-ended legal exploration
+grounded contract Q&A
+
+Inspect and analyze:
+
+Existing search/query mechanisms
+SQL-based retrieval
+Genie architecture
+Metadata filtering
+Serving layer design
+Historical/version querying
+Amendment lineage
+Clause retrieval approach
+Evidence traceability
+Query scalability
+Current grounding approach
+Current explainability mechanisms
+
+Critically analyze:
+
+What types of questions CAN the current system answer reliably?
+What types of questions will FAIL?
+Where will semantic reasoning break?
+Where will contextual retrieval fail?
+Where will legal nuance be lost?
+Where will long-tail queries fail?
+Where will historical comparisons become unreliable?
+Where will SQL-only retrieval become insufficient?
+
+Based on the CURRENT implementation, analyze whether the system should adopt:
+
+RAG
+Advanced RAG
+Hybrid Retrieval
+Semantic Search
+Embeddings
+Vector Search
+Clause-level indexing
+Section-aware indexing
+Hierarchical retrieval
+GraphRAG
+Knowledge graphs
+Re-ranking
+Multi-stage retrieval
+Agentic retrieval
+Citation grounding
+Retrieval confidence scoring
+
+IMPORTANT:
+Do NOT blindly recommend technologies.
+First determine whether they are ACTUALLY needed based on the current architecture and business goals.
+
+Provide:
+
+Current Retrieval Architecture Assessment
+Current Query Capability Assessment
+Current Semantic Intelligence Assessment
+Major Retrieval Limitations
+Legal Reasoning Limitations
+SQL vs Semantic Retrieval Analysis
+RAG Necessity Assessment
+Hybrid Retrieval Necessity Assessment
+Trust & Grounding Assessment
+Recommended Retrieval Direction
+Enterprise Legal AI Comparison
+Future Scalability Concerns
+PHASE 4 — Enterprise Trust, Governance & Hallucination Audit
+
+You are now performing an ENTERPRISE TRUST & GOVERNANCE AUDIT for the Contract_Codification_Pipeline system.
+
+Your task is to determine whether this platform can realistically become a TRUSTED enterprise legal AI system.
+
+Analyze deeply:
+
+Hallucination prevention
+Source grounding
+Citation traceability
+Legal defensibility
+Auditability
+Confidence scoring
+Human review support
+Governance architecture
+Data lineage
+Reproducibility
+Version traceability
+Amendment lineage
+Deterministic vs probabilistic outputs
+Explainability
+Error propagation
+Silent corruption risks
+AI trustworthiness
+Operational observability
+Production monitoring
+Enterprise compliance readiness
+
+Analyze and answer:
+
+Can users TRUST the outputs?
+Which outputs are trustworthy?
+Which outputs are risky?
+Where can hallucinations occur?
+Where can incomplete extraction appear valid?
+Where can legal misinterpretation happen?
+Where can amendment supersession become wrong?
+Where can outdated contracts appear current?
+Where can confidence scoring become misleading?
+Which areas require human review?
+Which areas are safe for automation?
+Which areas require deterministic enforcement?
+
+Provide:
+
+Trust Architecture Assessment
+Hallucination Risk Assessment
+Legal Risk Assessment
+Governance Maturity Assessment
+Auditability Assessment
+Confidence Scoring Assessment
+Human-in-Loop Assessment
+Production Reliability Assessment
+Enterprise Readiness Assessment
+Critical Trust Gaps
+Operational Risk Areas
+High-Risk Failure Scenarios
+PHASE 5 — Enterprise Architecture Redesign & Future-State Platform
+
+You are now acting as:
+
+Principal AI Architect
+Enterprise Legal AI Architect
+Principal Databricks Solution Architect
+Enterprise GenAI Platform Reviewer
+
+You have already analyzed the existing Contract_Codification_Pipeline architecture deeply.
+
+Now design the IDEAL FUTURE-STATE ENTERPRISE CONTRACT INTELLIGENCE PLATFORM.
+
+Build a highly trusted enterprise-grade Contract Intelligence Platform capable of:
+
+semantic contract understanding
+historical contract intelligence
+amendment lineage
+clause intelligence
+legal traceability
+grounded question answering
+structured analytics
+enterprise trust
+explainable retrieval
+scalable processing
+low hallucination risk
+long-term maintainability
+
+Design the BEST POSSIBLE architecture for this platform.
+
+You must determine:
+
+What should remain from the current system
+What should be redesigned
+What should be added
+What should be removed
+What should become deterministic
+What should remain AI-driven
+
+Design the ideal:
+
+OCR architecture
+Parsing architecture
+Chunking strategy
+Clause modeling strategy
+Metadata architecture
+Canonical contract model
+Retrieval architecture
+RAG architecture
+Hybrid retrieval architecture
+Embedding strategy
+Vector indexing strategy
+Re-ranking strategy
+Historical/version strategy
+Amendment lineage strategy
+Citation architecture
+Trust architecture
+Governance architecture
+Human-in-loop workflow
+Evaluation framework
+Monitoring & observability
+Scalability architecture
+Databricks-native architecture
+Serving/query architecture
+Enterprise security/governance architecture
+
+Do NOT give generic RAG advice.
+
+Design specifically for:
+
+provider contracts
+legal documents
+amendments
+fee schedules
+complex rate tables
+enterprise trust
+Databricks ecosystem
+large-scale contract intelligence
+
+Provide:
+
+Executive Summary
+Future-State Architecture
+Detailed Component Design
+Recommended Technology Stack
+Recommended Databricks Services
+Recommended Retrieval Architecture
+Recommended Chunking Strategy
+Recommended Metadata Model
+Recommended Trust Architecture
+Recommended Governance Framework
+Recommended Evaluation Framework
+Recommended Human Review Workflow
+Recommended Migration Strategy
+Quick Wins
+High-Impact Improvements
+Long-Term Strategic Architecture
+Productionization Roadmap
+Final Enterprise Architecture Verdict
+
+
+
+
+
+You are now acting as:
+
+* Principal AI Evaluation Architect
+* Enterprise GenAI Reliability Engineer
+* Legal AI Benchmarking Specialist
+* Enterprise Contract Intelligence QA Architect
+
+You have already completed:
+
+* repository reconstruction,
+* OCR/parsing audit,
+* retrieval architecture analysis,
+* trust/governance review,
+* and future-state architecture design for the Contract_Codification_Pipeline project.
+
+Now your task is to design the COMPLETE ENTERPRISE EVALUATION, TESTING, BENCHMARKING, AND QUALITY ASSURANCE FRAMEWORK for this platform.
+
+==================================================
+OBJECTIVE
+=========
+
+Design a world-class evaluation framework that ensures:
+
+* enterprise trust,
+* extraction accuracy,
+* semantic retrieval quality,
+* hallucination minimization,
+* legal reliability,
+* regression prevention,
+* production stability,
+* and long-term model governance.
+
+The goal is to make this platform continuously measurable, testable, and improvable.
+
+==================================================
+CRITICAL REQUIREMENT
+====================
+
+Do NOT give generic AI evaluation advice.
+
+Design specifically for:
+
+* provider contracts
+* amendments
+* fee schedules
+* healthcare reimbursement contracts
+* legal clauses
+* complex rate tables
+* historical contract intelligence
+* semantic legal retrieval
+* grounded legal Q&A
+* Databricks-native enterprise systems
+
+==================================================
+ANALYZE CURRENT STATE FIRST
+===========================
+
+Before proposing the framework:
+
+* analyze the CURRENT evaluation mechanisms already implemented,
+* identify gaps,
+* identify where trust measurement is weak,
+* identify where hallucinations are currently undetectable,
+* identify where regressions can silently occur,
+* identify where semantic retrieval quality cannot currently be measured.
+
+==================================================
+DESIGN THE COMPLETE EVALUATION FRAMEWORK
+========================================
+
+Design detailed evaluation strategies for:
+
+1. OCR quality evaluation
+2. Table extraction evaluation
+3. Clause extraction evaluation
+4. Amendment extraction evaluation
+5. Rate attribution evaluation
+6. Provider identity resolution evaluation
+7. Historical version reconstruction evaluation
+8. Chunking quality evaluation
+9. Retrieval quality evaluation
+10. RAG grounding evaluation
+11. Citation correctness evaluation
+12. Hallucination detection evaluation
+13. Semantic search evaluation
+14. Clause similarity evaluation
+15. Legal Q&A evaluation
+16. Structured SQL answer evaluation
+17. Hybrid retrieval evaluation
+18. Human-review agreement scoring
+19. Cross-model consistency evaluation
+20. Production drift detection
+21. Model version regression testing
+22. Prompt regression testing
+23. Embedding drift evaluation
+24. Data quality SLA monitoring
+25. End-to-end trust scoring
+
+==================================================
+SPECIFIC QUESTIONS TO ANSWER
+============================
+
+Analyze and design:
+
+* What should the golden datasets look like?
+* How should contracts be manually labeled?
+* What should be clause-level benchmarks?
+* How should table extraction accuracy be measured?
+* How should semantic retrieval precision be measured?
+* How should hallucinations be detected automatically?
+* How should amendment supersession correctness be tested?
+* How should current-state materialization be validated?
+* How should enterprise trust scores be computed?
+* Which fields require human validation?
+* Which outputs are safe for automation?
+* How should regression testing work when prompts/models change?
+* How should evaluation scale to thousands of contracts?
+* How should evaluation run continuously in production?
+
+==================================================
+METRICS TO DESIGN
+=================
+
+Design exact metrics for:
+
+* Precision
+* Recall
+* F1
+* Clause completeness
+* Table reconstruction accuracy
+* Cell-level extraction accuracy
+* Citation precision
+* Retrieval precision@k
+* Semantic recall
+* Hallucination rate
+* Grounding score
+* Amendment reconstruction accuracy
+* Current-state accuracy
+* Provider-resolution accuracy
+* Legal clause similarity accuracy
+* Human-review agreement
+* Production confidence score
+* Trustworthiness score
+
+==================================================
+ENTERPRISE EVALUATION ARCHITECTURE
+==================================
+
+Design the ideal enterprise evaluation architecture including:
+
+* Evaluation datasets
+* Benchmark repositories
+* Human review workflows
+* LLM-as-judge usage
+* Automated regression pipelines
+* Continuous evaluation jobs
+* Model comparison framework
+* Prompt comparison framework
+* Experiment tracking
+* Audit dashboards
+* Evaluation Delta tables
+* Databricks-native orchestration
+* MLflow integration
+* Governance integration
+
+==================================================
+IMPORTANT CONSTRAINTS
+=====================
+
+The framework must support:
+
+* enterprise legal defensibility
+* auditability
+* reproducibility
+* large-scale contract processing
+* continuous model upgrades
+* future retrieval architecture upgrades
+* multiple LLM vendors
+* multiple embedding models
+* human-in-the-loop governance
+
+==================================================
+OUTPUT FORMAT
+=============
+
+Provide:
+
+1. Executive Summary
+2. Current Evaluation Gap Analysis
+3. Future-State Evaluation Architecture
+4. Golden Dataset Strategy
+5. OCR Evaluation Framework
+6. Table Extraction Evaluation Framework
+7. Clause Extraction Evaluation Framework
+8. Retrieval & RAG Evaluation Framework
+9. Hallucination Detection Framework
+10. Legal Q&A Evaluation Framework
+11. Regression Testing Framework
+12. Human Review Framework
+13. Continuous Production Monitoring Framework
+14. Enterprise Trust Scoring Framework
+15. Recommended Delta Tables & Metadata Models
+16. Recommended Databricks Services
+17. Recommended MLflow Integration
+18. Recommended Evaluation Pipelines
+19. Recommended Governance Controls
+20. Production Readiness Evaluation Checklist
+21. Priority-Wise Implementation Roadmap
+22. Final Enterprise Evaluation Strategy Verdict
+
+Base all recommendations on:
+
+* the CURRENT repository architecture,
+* enterprise Legal AI best practices,
+* and scalable Databricks-native GenAI system design.
+
+
+
+
+
+
+You are now acting as:
+
+* Principal Enterprise AI Program Architect
+* Principal Technical Product Strategist
+* Enterprise Legal AI Delivery Lead
+* Principal Databricks Platform Architect
+
+You have already completed:
+
+* repository reconstruction,
+* OCR/parsing audit,
+* retrieval analysis,
+* trust/governance review,
+* future-state architecture design,
+* and evaluation framework design for the Contract_Codification_Pipeline system.
+
+Your task now is to create the COMPLETE ENTERPRISE IMPLEMENTATION ROADMAP for evolving this platform into a production-grade enterprise Contract Intelligence Platform.
+
+==================================================
+OBJECTIVE
+=========
+
+Design the optimal implementation strategy that balances:
+
+* enterprise trust
+* engineering complexity
+* delivery speed
+* architectural risk
+* business value
+* scalability
+* maintainability
+* operational maturity
+
+The roadmap must prioritize the HIGHEST IMPACT capabilities first.
+
+==================================================
+YOUR TASK
+=========
+
+Analyze all previous findings and determine:
+
+1. What should be implemented FIRST?
+2. What are the highest-risk gaps?
+3. What gives the largest trust improvement?
+4. What gives the largest business value?
+5. What capabilities are prerequisites for others?
+6. What should NOT be implemented yet?
+7. What sequence minimizes enterprise risk?
+8. What sequence maximizes long-term architectural stability?
+
+==================================================
+CREATE A COMPLETE IMPLEMENTATION ROADMAP
+========================================
+
+Design:
+
+1. Immediate priorities (0-30 days)
+2. Short-term roadmap (1-3 months)
+3. Mid-term roadmap (3-6 months)
+4. Long-term roadmap (6-12 months)
+
+For EACH initiative provide:
+
+* Business value
+* Technical value
+* Trust impact
+* Complexity
+* Dependencies
+* Risks
+* Required Databricks services
+* Required data model changes
+* Required evaluation support
+* Suggested rollout strategy
+* Suggested ownership model
+* Suggested success metrics
+
+==================================================
+SPECIFIC AREAS TO PRIORITIZE
+============================
+
+Evaluate and prioritize:
+
+* Golden dataset creation
+* Table attribution reliability
+* Clause-level chunking
+* Provenance tracking
+* Semantic retrieval
+* Vector search
+* Hybrid retrieval
+* Regression framework
+* Hallucination detection
+* Trust scoring
+* Human review workflows
+* Monitoring/observability
+* Prompt versioning
+* Embedding versioning
+* Amendment lineage improvements
+* Historical state materialization
+* RAG implementation
+* GraphRAG feasibility
+* Agentic workflow feasibility
+* Query orchestration
+* Production CI/CD
+* Governance controls
+
+==================================================
+IMPORTANT CONSTRAINTS
+=====================
+
+Do NOT produce a generic roadmap.
+
+The roadmap must be specifically optimized for:
+
+* healthcare provider contracts
+* enterprise legal trust
+* Databricks-native architecture
+* current extraction-first design
+* future hybrid retrieval architecture
+* large-scale contract intelligence
+
+==================================================
+OUTPUT FORMAT
+=============
+
+Provide:
+
+1. Executive Summary
+2. Strategic Architecture Direction
+3. Highest-Risk Areas
+4. Highest-ROI Improvements
+5. Recommended Implementation Sequence
+6. Immediate Next Actions
+7. 30-Day Plan
+8. 90-Day Plan
+9. 6-Month Architecture Plan
+10. 12-Month Vision
+11. Recommended Team Structure
+12. Recommended Governance Process
+13. Recommended Productionization Strategy
+14. Recommended Technical Milestones
+15. Critical Architectural Warnings
+16. What NOT To Build Yet
+17. Final Strategic Recommendation
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are now acting as:
+
+* Principal Enterprise AI Architect
+* Principal GenAI Product Strategist
+* Enterprise Legal AI Platform Engineer
+* Databricks GenAI Acceleration Lead
+* Enterprise Contract Intelligence Architect
+
+You have already analyzed the COMPLETE Contract_Codification_Pipeline system including:
+
+* architecture,
+* OCR/parsing,
+* extraction,
+* retrieval,
+* trust/governance,
+* evaluation framework,
+* and implementation roadmap.
+
+Now your task is DIFFERENT.
+
+==================================================
+OBJECTIVE
+=========
+
+I DO NOT want long-term enterprise productionization planning right now.
+
+I want the FASTEST and HIGHEST IMPACT evolution path for the CURRENT platform.
+
+The goal is to rapidly evolve the existing project into something that:
+
+* feels highly intelligent,
+* demonstrates strong contract understanding,
+* provides strong user value,
+* creates stakeholder excitement,
+* improves retrieval capability,
+* improves trust visibility,
+* and significantly enhances user experience QUICKLY.
+
+The focus is:
+
+* maximum visible intelligence,
+* maximum business impact,
+* minimum implementation time,
+* and rapid evolution of the CURRENT architecture.
+
+==================================================
+IMPORTANT CONTEXT
+=================
+
+The current platform ALREADY has:
+
+* OCR pipeline
+* metadata extraction
+* LLM extraction
+* consolidation
+* amendment handling
+* Delta tables
+* validation logic
+* audit logic
+* Genie integration
+* structured serving
+* historical tracking
+* provider normalization
+
+So do NOT redesign everything from scratch.
+
+Instead:
+
+* evolve the CURRENT architecture intelligently,
+* leverage what already exists,
+* and identify the MOST impactful improvements that can realistically be implemented QUICKLY.
+
+==================================================
+YOUR TASK
+=========
+
+Design the COMPLETE RAPID EVOLUTION STRATEGY for the current platform.
+
+==================================================
+SECTION 1 — HIGHEST IMPACT CAPABILITIES
+=======================================
+
+Identify the TOP capabilities that would:
+
+* most impress users,
+* most improve contract intelligence,
+* most improve retrieval experience,
+* most improve perceived intelligence,
+* most improve trust,
+* and most increase platform value QUICKLY.
+
+Examples may include:
+
+* clause semantic search
+* vector search
+* hybrid retrieval
+* amendment comparison
+* semantic clause lookup
+* contract comparison
+* historical intelligence
+* citation display
+* confidence display
+* source traceability
+* semantic query understanding
+* interactive Genie experiences
+* intelligent dashboards
+* contract relationship exploration
+
+For EACH capability explain:
+
+* why it matters,
+* expected user impact,
+* business impact,
+* trust impact,
+* implementation complexity,
+* implementation time,
+* architectural dependencies,
+* and whether it should be implemented immediately.
+
+==================================================
+SECTION 2 — RAPID IMPLEMENTATION PRIORITIES
+===========================================
+
+Design the BEST implementation sequence optimized for:
+
+* speed,
+* visible value,
+* stakeholder excitement,
+* and technical feasibility.
+
+Create:
+
+1. Immediate quick wins (1-3 days)
+2. High-value implementations (1 week)
+3. Medium-complexity intelligence upgrades (2-4 weeks)
+4. Longer-term advanced capabilities
+
+For EACH item provide:
+
+* expected implementation effort,
+* expected impact,
+* architectural changes required,
+* data model changes required,
+* Databricks services required,
+* risk level,
+* and expected visible user benefit.
+
+==================================================
+SECTION 3 — SEMANTIC SEARCH & RETRIEVAL EVOLUTION
+=================================================
+
+Analyze the BEST way to quickly evolve the current system into a more intelligent retrieval platform.
+
+Specifically evaluate:
+
+* clause embeddings
+* vector search
+* semantic clause retrieval
+* hybrid retrieval
+* metadata filtering
+* semantic ranking
+* contract semantic search
+* amendment semantic search
+* contextual retrieval
+* clause similarity
+* provider comparison
+* semantic query routing
+
+IMPORTANT:
+Design this specifically around the CURRENT architecture and existing Delta tables.
+
+Do NOT give generic RAG advice.
+
+Explain:
+
+* what should actually be implemented FIRST,
+* what gives maximum visible intelligence,
+* what is safest technically,
+* and what should wait.
+
+==================================================
+SECTION 4 — USER EXPERIENCE EVOLUTION
+=====================================
+
+Design how the platform experience should evolve QUICKLY.
+
+Explain:
+
+* what users should be able to search,
+* what outputs should look like,
+* how trust should be displayed,
+* how citations should appear,
+* how amendment comparisons should work,
+* how contract comparisons should work,
+* how historical intelligence should work,
+* and how Genie should be used effectively.
+
+Design:
+
+* ideal query flows,
+* ideal output formats,
+* ideal trust indicators,
+* ideal intelligence demonstrations.
+
+==================================================
+SECTION 5 — FASTEST “WOW FACTOR” FEATURES
+=========================================
+
+Identify the features that would create the BIGGEST stakeholder/user reaction with relatively LOW implementation effort.
+
+Prioritize:
+
+* high visual impact,
+* high intelligence perception,
+* high usefulness,
+* high trust perception.
+
+Examples:
+
+* “Find all termination clauses”
+* “Compare reimbursement logic between providers”
+* “What changed in amendment 4?”
+* “Show all carve-outs for emergency services”
+* “Find clauses related to disputes”
+* “Show historical reimbursement changes”
+* “Find similar clauses across providers”
+
+For EACH feature provide:
+
+* why it creates impact,
+* implementation difficulty,
+* required backend changes,
+* required retrieval changes,
+* and whether it is realistic to implement quickly.
+
+==================================================
+SECTION 6 — WHAT SHOULD NOT BE BUILT YET
+========================================
+
+Clearly identify:
+
+* what would slow the project down,
+* what is over-engineering,
+* what is low-value right now,
+* what creates unnecessary complexity,
+* and what should wait until later maturity.
+
+Specifically evaluate:
+
+* GraphRAG
+* agents
+* multi-agent orchestration
+* advanced orchestration frameworks
+* embedding fine-tuning
+* custom model training
+* autonomous workflows
+* complex evaluation systems
+* enterprise CI/CD
+* advanced governance systems
+
+==================================================
+SECTION 7 — RECOMMENDED NEXT IMPLEMENTATIONS
+============================================
+
+Create a VERY CONCRETE prioritized implementation plan including:
+
+1. What should be implemented FIRST
+2. What should be implemented THIS WEEK
+3. What should be implemented BEFORE stakeholder demos
+4. What should be implemented AFTER demos
+5. What gives the fastest visible intelligence boost
+6. What gives the fastest trust boost
+7. What gives the strongest user adoption potential
+
+==================================================
+SECTION 8 — FINAL STRATEGIC RECOMMENDATION
+==========================================
+
+Provide:
+
+1. The BEST rapid evolution strategy
+2. The BEST immediate next step
+3. The MOST important capability to implement now
+4. The BIGGEST opportunity area
+5. The BIGGEST architectural risk
+6. The FASTEST path to a highly impressive platform
+7. The FASTEST path to visible AI intelligence
+8. The FASTEST path to strong stakeholder confidence
+
+==================================================
+IMPORTANT CONSTRAINTS
+=====================
+
+Your recommendations MUST:
+
+* leverage the CURRENT architecture,
+* be realistic,
+* avoid over-engineering,
+* optimize for visible intelligence,
+* optimize for user excitement,
+* optimize for rapid implementation,
+* and maximize platform evolution speed.
+
+Do NOT redesign the entire platform.
+Do NOT give generic AI architecture advice.
+Base everything on the ACTUAL existing implementation.
+
